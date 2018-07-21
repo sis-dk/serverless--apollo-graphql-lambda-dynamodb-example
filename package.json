@@ -1,0 +1,22 @@
+{
+  "name": "serverless-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "apollo-server-lambda": "^2.0.0",
+    "aws-sdk": "^2.279.1",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^3.0.5",
+    "serverless-dynamodb-local": "^0.2.30",
+    "serverless-offline": "^3.25.6",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
